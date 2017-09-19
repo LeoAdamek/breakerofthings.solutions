@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to show text on the screen
-date: 2017-09-17
+date: 2017-09-18
 ---
 
 # Introduction
@@ -291,16 +291,14 @@ SDL_Flip(screen);
 At this point, we should see the result from the start of the post on screen.
 After this we can repeat the process to show more text, or if we're done, clean up any resources we don't need any longer, and then wait for the user to close the window.
 
-
 # 7. Summary
 
 In conclusion, the process a modern computer goes through in order to show text on the screen has lots of hidden complexity, and relies on the work of hundreds of skilled programmers
 in order for it to work successfully. This process, or a similar one with most of the same steps is required every time text needs to appear on screen.
 
+If you have any suggestions for improvements to this post, please message _how-to-show-text-on-screen-suggestions [AT] breakerofthings [DOT] tech_
 
-If you have any suggestions for improvements to this post, please message   how-to-show-text-on-screen-suggestions [AT] breakerofthings [DOT] tech
-
-
+[sauce]: https://github.com/LeoAdamek/how-to-show-text-on-screen
 [cairo]: https://www.cairographics.org/
 [sdl]: https://www.libsdl.org
 [harfbuzz]: https://www.freedesktop.org/wiki/Software/HarfBuzz/
